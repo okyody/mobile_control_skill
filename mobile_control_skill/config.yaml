@@ -1,0 +1,14 @@
+device:
+  connection_type: "usb"
+  device_uri: "Android:///"
+  use_minicap: true
+
+performance:
+  target_fps: 15
+  screen_width: 720
+  action_cooldown: 0.1
+  confidence_threshold: 0.85
+
+openclaw:
+  heartbeat_interval: 5
+  log_level: "INFO"

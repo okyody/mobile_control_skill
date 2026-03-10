@@ -1,0 +1,21 @@
+{
+  "id": "mobile_control_skill",
+  "name": "Mobile Control Skill",
+  "version": "1.0.0",
+  "description": "高性能手机自动化操控技能",
+  "author": "Your Name",
+  "type": "automation",
+  "platform": "openclaw",
+  "entry_point": "skill_main:MobileControlSkill",
+  "requirements": [
+    "airtest-python>=1.1.30",
+    "opencv-python>=4.8.0",
+    "numpy>=1.24.0"
+  ],
+  "permissions": [
+    "device_control",
+    "screen_capture",
+    "network_access"
+  ],
+  "enabled": true
+}
