@@ -33,10 +33,10 @@ performance:
   confidence_threshold: 0.85
 
 📊 性能指标
-指标	数值
-决策延迟	< 100ms
-截图 FPS	15-30
-识别准确率	> 95%
+指标	             数值
+决策延迟	   <       100ms
+截图       FPS	   15-30
+识别准确率	 >       95%
 📝 许可证
 MIT License
 
