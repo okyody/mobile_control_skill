@@ -25,14 +25,14 @@ skill = MobileControlSkill()
 skill.on_init({"device": {"device_uri": "Android:///"}})
 skill.on_start()
 
-##⚙️ 配置
+⚙️ 配置
 performance:
   target_fps: 15
   screen_width: 720
   action_cooldown: 0.1
   confidence_threshold: 0.85
 
-##📊 性能指标
+📊 性能指标
 指标	             数值
 决策延迟	   <       100ms
 截图       FPS	   15-30
